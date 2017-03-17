@@ -4,7 +4,7 @@ set -eu
 set -o pipefail
 
 # we pin the mason version to avoid changes in mason breaking builds
-MASON_VERSION="new-pkgs"
+MASON_VERSION="e52b8e4"
 
 function setup_mason() {
     if [[ ! -d ./.mason ]]; then
